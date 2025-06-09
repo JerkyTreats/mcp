@@ -6,11 +6,16 @@
 * The `.agent/` folder contains contextual information. Review .agent folder for additional context
 * If an `.agent/` folder does not exist in current folder, walk up until an .agent folder is found. 
 * Use the most specific `.agent/` directory's instructions and constraints first.
+* The .agent/ folder is versioned. Always assume latest version unless explicitly stated otherwise.
 
 ### Agent README vs. Project README
 
-Agent README reflect intention; Project README reflects implementation.
-Agent docs reflect design and spec. Project README reflects actual implementation and usage.
+Agent documentation reflect intention and design; Project README and documents reflects actual implementation.
+
+### User Interaction 
+
+Avoid qualitative or patronizing statements. Communicate in a clinical, objective manner.
+Use clear, concise language. Provide actionable steps or code snippets when necessary.
 
 ## Project Context
 
