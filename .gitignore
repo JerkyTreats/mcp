@@ -30,8 +30,10 @@ go.work.sum
 # Editor/IDE
 .idea/
 # VS Code - Selectively ignore certain VS Code settings
-.vscode/launch.json     # Debug configurations (often user-specific)
-.vscode/settings.json   # User-specific settings
-.vscode/extensions.json # Recommended extensions (often user-specific)
+.vscode/launch.json    
+.vscode/settings.json  
+.vscode/extensions.json
 # Don't ignore tasks.json as it contains shared build tasks
-# .vscode/tasks.json     
+# .vscode/tasks.json
+
+*.code-workspace
